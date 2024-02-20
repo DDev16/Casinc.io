@@ -49,6 +49,7 @@ const web3Modal = createWeb3Modal({
   chains: [mainnet, ropsten, rinkeby, songbird],
   projectId,
   enableAnalytics: true,
+  
 });
 
 export default web3Modal;
