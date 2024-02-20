@@ -1,11 +1,12 @@
 import React from 'react';
+import footerLogo from '../assets/footer_logo.png';
 
 const Footer = () => {
   return (
     <footer className="text-center text-gray-500 bg-blue-950">
       <div className="flex justify-center space-x-4 items-center">
         {/* Add the logo to the left */}
-        <img src="src/assets/footer_logo.png" alt="Footer Logo" className="h-8 w-68" />
+        <img src={footerLogo} alt="Footer Logo" className="h-8 w-68" />
 
         {/* Navigation links */}
         <a href="/about" className="text-white hover:text-yellow-500 hover:underline transition-all duration-300">About</a>

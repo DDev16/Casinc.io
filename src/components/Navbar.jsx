@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ConnectButton from './ConnectButton';
-
+import headerLogo from '../assets/header_logo.png';
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -13,7 +13,7 @@ const Navbar = () => {
 <nav className="flex justify-between items-center bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 p-4">
       <div className="flex items-center">
         {/* Add the logo */}
-        <img src="src/assets/header_logo.png" alt="Logo" className="h-8 w-40 md:w-60 mr-2" />
+        <img src={headerLogo} alt="Logo" className="h-8 w-40 md:w-60 mr-2" />
       </div>
 
       {/* Hamburger Menu for mobile */}
