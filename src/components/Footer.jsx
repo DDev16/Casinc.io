@@ -12,7 +12,6 @@ const Footer = () => {
         <a href="/about" className="text-white hover:text-yellow-500 hover:underline transition-all duration-300">About</a>
         <a href="/support" className="text-white hover:text-yellow-500 hover:underline transition-all duration-300">Support</a>
         <a href="/faq" className="text-white hover:text-yellow-500 hover:underline transition-all duration-300">FAQ</a>
-        <a href="/provably-fair" className="text-white hover:text-yellow-500 hover:underline transition-all duration-300">Provably Fair</a>
       </div>
       <p className="text-white">&copy; 2024 All rights reserved.</p>
     </footer>
