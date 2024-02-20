@@ -8,6 +8,8 @@ const Home = () => <RouletteGame />;
 const About = () => <div>About Page</div>;
 const Contact = () => <div>Contact Page</div>;
 
+
+
 const App = () => {
   return (
     <Router>
